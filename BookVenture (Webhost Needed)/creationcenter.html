@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<title> Book Venture | Creation Center </title>
+		<link rel="stylesheet" type="text/css" href="CreationCenter.css">
+		<script type="text/javascript" src="CreationCenter.js">  </script>
+		
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body id="myBack" background="Images/bookback.jpg">
+	
+		<header id="topBar">
+			</br>
+			<h1> Welcome to the Creation Center</h1>
+		</header>
+
+		<nav id="nav">
+				<ul id="navBar" >
+					<li> <a  id="color1" href ="creationcenter.html">| Creation Center  |  </a> </li>
+					<li> <a id="color2" href ="MyLibrary.html">| My Library |  </a> </li>
+					<li> <a  id="color3" href ="MyCreations.html">| My Creations |  <a/> </li>
+					<li> <a  id="color4" href ="ExploreBooks.html">| Explore Books |  </a> </li>
+				</ul>
+		</nav>
+		
+		<section id="sectionback">
+		
+			<div id="themes"> Background Themes:
+				<table id="themestable">
+				
+					<tr>
+						<td> <button onclick="booksGalore()"> Books Galore</button> </td>
+						<td> <button onclick="spaceCats()"> Space Cats </button> </td>
+						<td> <button onclick="matrix()"> Inside The Matrix </button> </td>
+						<td> <button onclick="ancientHistory()"> Ancient History </button> </td>
+						<td> <button onclick="sailorsWake()"> Sailors Wake </button> </td>
+						<td> <button onclick="Fantasy()"> Sci-Fi Fantasy </button> </td>
+					</tr>
+					
+				</table>
+			</div>
+			</br>
+			<div id="info">
+				
+				Name Of Book Title:</br>
+				<input type="text" name="booktitle"> </br>
+				
+				Author Name: </br>
+				<input type ="text" name="name"> </br>
+				
+				Date: </br>
+				<input type="date" name="date"> </br>
+				
+			</div>
+			
+			</br>
+			
+				<div id="banner">
+				</div>
+	
+			<table id="textChange">
+				<tr>
+				<td>
+					Font Styles:
+					<select onchange="changeFont(this);">
+						<option> Catamaran </option>
+						<option> Book Antiqua </option>
+						<option> Tahoma </option>
+						<option> Impact </option>
+						<option> Courier New </option>
+						<option> Lobster </option>
+					</select>
+				</td>
+				<td>
+					<form>
+						<input onclick="textAlignLeft()" type="radio" name="style" > Text Align : Left </br>
+						<input onclick="textAlignCenter()" type="radio" name="style"> Text Align : Center </br>
+						<input onclick="textAlignRight()" type="radio" name="style"> Text Align : Right </br>
+					</form>
+				</td>
+				
+				<td>
+					Font Colours : 
+					<select id="fontColor" onchange="changeColor();">
+						<option value="red"> Red </option>
+						<option value="blue"> Blue </option>
+						<option value="black"> Black </option>
+					</select>
+				</td>
+				
+			</table>
+			
+			<div id="textblock">
+				</br>
+				
+					<textarea id="text" autofocus>
+					Once upon a time...
+					</textarea>
+					
+				</br>
+					<button type="button" onclick="submitBook()"> Submit Creation </button>
+					
+			</div>
+			
+		</section>
+
+<p id="demo"></p>
+
+
+	</body>
+	
+	<footer id="foot">
+	</footer>
+</html>

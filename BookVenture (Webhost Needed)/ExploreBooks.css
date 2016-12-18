@@ -1,0 +1,145 @@
+header{
+		background-color:pink;
+		height:250px;
+		width:1000px;
+		text-align: center;
+		margin-left:120px;
+		border-radius: 25px;
+}
+header h1{
+		font-size:50;
+		text-align: center;
+		letter-spacing: 10px;
+		font-family:'Lobster',cursive;
+}
+
+nav{
+		background-image:url('Images/waterflowers.jpg');
+		height:50px;
+		width:1000px;
+		margin-left:120px;
+		text-align:center;
+}
+
+nav ul li{
+		display:inline;
+		padding:55px;
+		text-align: center;
+		font-family:'Catamaran', sans-serif;
+		font-weight:900;
+		
+}
+
+nav ul li a{
+		text-decoration: none;
+		color:black;
+		text-align:center;
+}
+
+a:hover{
+		font-size:25;
+}
+
+body{
+		margin:0;
+		padding:0;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-size:cover;
+}
+
+section{
+		height:1300px;
+		width:1000px;
+		margin-left:120px;
+		background-color:white;
+		opacity:0.9;
+}
+
+
+table, th, td{
+		text-align: center;
+		font-family: Georgia;
+		border-width: 30px;
+}
+
+#themes{
+		background-color:white;
+		height:150px;
+		width:500px;
+		font-size:30px;
+		text-align: center;
+		font-family:'Catamaran', sans-serif;
+		float:right;
+		margin-left:50px;
+		margin-top:50px;
+}
+
+#select{
+		background-color:white;
+		margin-top:50px;
+		font-size:40px;
+		float:left;
+		text-align: center;
+		height:150px;
+		width:450px;
+		font-family:'Lobster' cursive;
+		letter-spacing:10px;
+}
+
+#banner{
+		height:100px;
+		width:1000px;
+		margin-top:200px;
+		background-image:url('Images/waterflowers.jpg');
+}
+
+#bookGenre{
+		text-align:center;
+		font-family:'Lobster' cursive;
+}
+
+#exploreBooks{
+		height:900px;
+		width:900px;
+		background-color:pink;
+		margin-left:50px;
+		margin-top:20px;
+}
+
+#bookImg{
+		height:600px;
+		width:400px;
+		background-color:cyan;
+		float:left;
+		margin-left:50px;
+		margin-top:50px;
+}
+
+#title{
+		height:100px;
+		width:400px;
+		background-color:black;
+		float:left;
+		margin-top: 50px;
+}
+
+#author{
+		background-color:gray;
+		height:100px;
+		width:400px;
+		float:left;
+}
+
+#description{
+		height:400px;
+		width:400px;
+		background-color:purple;
+		float:left;
+}
+footer{
+		background-image:url('Images/waterflowers.jpg');
+		height:150px;
+		width:1000px;
+		margin-left:120px;
+}

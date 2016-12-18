@@ -1,0 +1,108 @@
+header{
+	background-color:white;
+	height:150px;
+	width:1330px;
+}
+header img{
+	float:left;
+}
+header ul{
+	list-style:none;
+	float:right;
+	font-family: arial;
+	font-size: 20;
+	padding:50px;
+}
+header ul li{
+	display: inline;
+	margin-left: 50px;
+	padding: 10px;
+}
+header a{
+	color:black;
+	text-decoration: none;
+}
+header a:hover{
+	color:#777;
+}
+section{
+	float:left;
+	width:380px;
+	height:500px;
+	padding: 15px;
+	margin-top: 8px;
+	margin-left: 8px;
+	background-image:url("photo/menu.jpg");
+    background-attachment: relative;
+	border: 10px solid black;
+	border-radius: 10px;
+}
+
+aside{
+	padding: 15px;
+	height:1000px;
+	width:1300px;
+	padding: 15px;
+	margin-right:8px;
+	background-image:url("photo/wood.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: relative;
+	background-size:cover;
+	
+}
+#newdrinks{
+	list-style:none;
+	font-size:20;
+	color:#F2D3A0;
+}
+.index-post{
+	padding: 10px;
+	font-family:Century Gothic;
+	height:100px;
+	color:#F7EEDF;
+	
+}
+.index-post img{
+	float:right;
+	padding: 5px;
+	margin-left: 10px;
+	
+}
+
+footer{
+	background-color:black;
+	width:1330px;
+	height:150px
+}
+footer ul{
+	list-style:none;
+	float:left;
+	font-family: arial;
+	font-size: 20;
+	padding:50px;
+}
+footer ul li{
+	display: inline;
+	margin-left: 50px;
+	padding: 10px;
+}
+footer a{
+	color:white;
+	text-decoration: none;
+}
+footer a:hover{
+	color:#777;
+}
+#body{
+	background-color:white;
+	height:1500px;
+	width:1330px;
+}
+#font{
+	font-family:Century Gothic;
+	color:black;
+	font-size:40;
+	padding:30px;
+	text-align:center;
+}

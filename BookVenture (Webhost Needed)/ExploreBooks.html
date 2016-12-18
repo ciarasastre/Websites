@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title>Book Venture | Explore Books </title>
+		<link rel="stylesheet" type="text/css" href="ExploreBooks.css">
+		<script type="text/javascript" src="ExploreBooks.js">  </script>
+		
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet' type='text/css'>
+		
+	</head>
+	
+	<body id="myBack" background="Images/bookback.jpg">
+		<header id="topBar">
+		
+			</br>
+			<h1>Explore Books Here!</h1>
+			
+		</header>
+		
+		<nav id="nav">
+				<ul id="navBar">
+					<li> <a id="color1" href ="creationcenter.html">| Creation Center |</a> </li>
+					<li> <a id="color2"href ="MyLibrary.html">| My Library |</a> </li>
+					<li> <a id="color3" href ="MyCreations.html">| My Creations |<a/> </li>
+					<li> <a id="color4" href ="ExploreBooks.html">| Explore Books |</a> </li>
+				</ul>
+		</nav>
+		
+		<section id="sectionback">
+		
+			<div id="select">
+				Explore the top picks of this week...
+			</div>
+		
+		<div id="themes">Background Themes:
+				<table>
+				
+					<tr>
+						<td> <button onclick="booksGalore()"> Books Galore</button> </td>
+						<td> <button onclick="spaceCats()"> Space Cats </button> </td>
+						<td> <button onclick="matrix()"> Inside The Matrix </button> </td>
+						<td> <button onclick="ancientHistory()"> Ancient History </button> </td>
+						<td> <button onclick="sailorsWake()"> Sailors Wake </button> </td>
+						<td> <button onclick="Fantasy()"> Sci-Fi Fantasy </button> </td>
+					</tr>
+					
+				</table>
+		</div>
+			
+			</br>
+			<div id="banner">
+			</div>
+			
+			<br>
+			<div id="bookGenre">
+			
+				<form name="genre_selection_form" id="genre_selection_form">
+				
+					Select your book genre:
+					
+						<select id="genreSelect" onchange="bookSelect()">
+						
+							<option value="fiction"> Fiction</option>
+							<option value="non-fiction"> Non-Fiction</option>
+							<option value="sci-fi"> Sci-Fi</option>
+							<option value="romance"> Romance</option>
+							<option value="mystery"> Mystery</option>
+							<option value="children"> Childrens</option>
+							<option value="horror/thriller"> Horror/Thriller</option>
+						</select>
+				</form>
+			</div>
+				
+			<div id="exploreBooks">
+			
+				<div id="bookImg">
+				IMAGE &nbsp;
+				</div>
+				
+				<div id="title">
+				TITLE &nbsp;
+				</div>
+				
+				<div id="author">
+				AUTHOR &nbsp;
+				</div>
+				
+				<div id="description">
+				DESCRIPTION &nbsp;
+				</div>
+				
+			
+			</div>
+		</section>
+		
+	</body>
+	
+	<footer id="foot">
+	</footer>
+</html>
